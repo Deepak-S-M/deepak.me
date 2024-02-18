@@ -16,22 +16,22 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                🔥 Solid - A Complete SaaS Web Template
+                🔥 Hello I'M ...
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Free Next.js Template for {"   "}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  SaaS
-                </span>
+                DEEPAK {"   "}
+                {/* <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
+                  S
+                </span> */}
               </h1>
-              <p>
-                Solid Pro - Packed with all the key integrations you need for
-                swift SaaS startup launch, including - Auth, Database, Sanity
-                Blog, Essential Components, Pages and More. Built-winth -
-                Next.js 13, React 18 and TypeScript.
-              </p>
 
-              <div className="mt-10">
+              <p>
+              I'm passionate about [briefly mention your main interests or profession]. Whether it's [mention a specific aspect of your work or passion], [another aspect], or [something else you're enthusiastic about], I'm always eager to dive in and explore new opportunities.
+              On this site, you'll find a glimpse into my world: from my latest projects to my thoughts on [relevant topics or interests]. I believe in [mention a core belief or value related to your work or life], and I'm committed to [what you aim to achieve or contribute through your work].
+              Feel free to browse around, and don't hesitate to reach out if you have any questions or simply want to connect. I'm excited to share this journey with you!
+              </p>  
+
+              {/* <div className="mt-10">
                 <form onSubmit={handleSubmit}>
                   <div className="flex flex-wrap gap-5">
                     <input
@@ -53,7 +53,7 @@ const Hero = () => {
                 <p className="mt-5 text-black dark:text-white">
                   Try for free no credit card required.
                 </p>
-              </div>
+              </div> */}
             </div>
 
             <div className="animate_right hidden md:w-1/2 lg:block">
@@ -80,7 +80,7 @@ const Hero = () => {
                   className="absolute -right-6.5 bottom-0 z-1"
                 />
                 <div className=" relative aspect-[700/444] w-full">
-                  <Image
+                <Image
                     className="shadow-solid-l dark:hidden"
                     src="/images/hero/hero-light.svg"
                     alt="Hero"
@@ -92,6 +92,24 @@ const Hero = () => {
                     alt="Hero"
                     fill
                   />
+                  {/* <Image
+                    className="shadow-solid-l dark:hidden"
+                    src="/images/hero/Deepak_Class_Flip.png"
+                    alt="Hero"
+                    // fill
+                    width={270} 
+                    height={400}
+                    style={{ position: 'absolute', right: 0 }}
+                  />
+                  <Image
+                    className="hidden shadow-solid-l dark:block"
+                    src="/images/hero/Deepak_Class_Flip.png"
+                    alt="Hero"
+                    // fill
+                    width={270} 
+                    height={400} 
+                    style={{ position: 'absolute', right: 70, top: 0 }}
+                  /> */}
                 </div>
               </div>
             </div>
