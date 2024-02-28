@@ -3,45 +3,45 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "/images/icon/icon-01.svg",
-    title: "Crafted for SaaS",
+    icon: "/images/features/school.svg",
+    title: "SSLC",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Completed SSLC at VNUP. Kaleeswari Hr. Secondary School, Vanniyampatty, achieving 94% and graduated in 2016.",
   },
   {
     id: 2,
-    icon: "/images/icon/icon-02.svg",
-    title: "High-quality Design",
+    icon: "/images/features/hr-school.svg",
+    title: "HSC",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Completed HSC at VNUP. Kaleeswari Hr. Secondary School, Vanniyampatty, achieving 72% and graduated in 2018.",
   },
   {
     id: 3,
-    icon: "/images/icon/icon-03.svg",
-    title: "Next.js 13 + TypeScript",
+    icon: "/images/features/aj-college.svg",
+    title: "UG",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Completed BCA Degree from Ayya Nadar Janakki Ammal College, Sivakasi, achieving 72% and graduated in 2021.",
   },
   {
     id: 4,
-    icon: "/images/icon/icon-04.svg",
-    title: "Sanity Blog and Docs",
+    icon: "/images/features/mepco-college.svg",
+    title: "PG",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Completed MCA Degree from Mepco Schlenk Enggineering College, Sivakasi, achieving 74% and graduated in 2023.",
   },
   {
     id: 5,
-    icon: "/images/icon/icon-05.svg",
-    title: "DB, Auth and Stripe",
+    icon: "/images/features/internship.svg",
+    title: "Internship",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Completed an internship at EnergizeNow, gaining valuable hands-on experience in software development from December 2022 to May 2023.",
   },
   {
     id: 6,
-    icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
+    icon: "/images/features/career.svg",
+    title: "Profession",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Currently working as Software Developer at EnergizNow, contributing writing code and debugging software issues, since June 2023.",
   },
 ];
 
