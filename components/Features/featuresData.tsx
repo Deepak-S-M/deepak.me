@@ -17,14 +17,14 @@ const featuresData: Feature[] = [
   },
   {
     id: 3,
-    icon: "/images/icon/icon-03.svg",
+    icon: "/images/features/anjac.png",
     title: "UG",
     description:
       "Completed BCA Degree from Ayya Nadar Janakki Ammal College, Sivakasi, achieving 72% and graduated in 2021.",
   },
   {
     id: 4,
-    icon: "/images/icon/icon-04.svg",
+    icon: "/images/features/mepco.jpeg",
     title: "PG",
     description:
       "Completed MCA Degree from Mepco Schlenk Enggineering College, Sivakasi, achieving 74% and graduated in 2023.",
@@ -38,7 +38,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 6,
-    icon: "/images/icon/icon-06.svg",
+    icon: "/images/icon/icon-03.svg",
     title: "Profession",
     description:
       "Currently working as Software Developer at EnergizNow, contributing writing code and debugging software issues, since 2023.",
