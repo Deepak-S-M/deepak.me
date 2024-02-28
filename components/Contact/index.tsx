@@ -182,7 +182,7 @@ const Contact = () => {
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   My Loaction
                 </h3>
-                <p>163 West Street, Vanniyampatty, Srivilliputtur, Viruthunagar, Tamilnadu, India</p>
+                <p>163 West Street, Vanniyampatty, Srivilliputtur, Virudhunagar, Tamilnadu, India</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
