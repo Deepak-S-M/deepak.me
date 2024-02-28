@@ -34,14 +34,14 @@ const featuresData: Feature[] = [
     icon: "/images/features/internship.svg",
     title: "Internship",
     description:
-      "Completed an internship at EnergizeNow, gaining valuable hands-on experience in software development.",
+      "Completed an internship at EnergizeNow, gaining valuable hands-on experience in software development from December 2022 to May 2023.",
   },
   {
     id: 6,
     icon: "/images/features/career.svg",
     title: "Profession",
     description:
-      "Currently working as Software Developer at EnergizNow, contributing writing code and debugging software issues, since 2023.",
+      "Currently working as Software Developer at EnergizNow, contributing writing code and debugging software issues, since June 2023.",
   },
 ];
 
