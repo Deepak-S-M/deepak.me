@@ -3,7 +3,7 @@ import React from "react";
 import SingleBrand from "./SingleBrand";
 import brandData from "./brandData";
 
-const Brands = () => {
+const Role = () => {
   return (
     <>
       {/* <!-- ===== Clients Start ===== --> */}
@@ -21,4 +21,4 @@ const Brands = () => {
   );
 };
 
-export default Brands;
+export default Role;

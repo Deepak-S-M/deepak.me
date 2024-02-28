@@ -101,7 +101,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex flex-wrap gap-4 xl:justify-between ">
-                  <div className="mb-4 flex md:mb-0">
+                  {/* <div className="mb-4 flex md:mb-0">
                     <input
                       id="default-checkbox"
                       type="checkbox"
@@ -131,7 +131,7 @@ const Contact = () => {
                       By clicking Checkbox, you agree to use our “Form” terms
                       And consent cookie usage in browser.
                     </label>
-                  </div>
+                  </div> */}
 
                   <button
                     aria-label="send message"
@@ -175,21 +175,21 @@ const Contact = () => {
               className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
             >
               <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-                Find us
+                Find Me
               </h2>
 
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Our Loaction
+                  My Loaction
                 </h3>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+                <p>163 West Street, Vanniyampatty, Srivilliputtur, Viruthunagar, Tamilnadu, India</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="#">deepaksm283@gmail.com</a>
                 </p>
               </div>
               <div>
@@ -197,7 +197,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="#">+91 63832 33588</a>
                 </p>
               </div>
             </motion.div>
