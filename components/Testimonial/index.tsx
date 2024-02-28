@@ -11,20 +11,20 @@ import { motion } from "framer-motion";
 import SingleTestimonial from "./SingleTestimonial";
 import { testimonialData } from "./testimonialData";
 
-const Testimonial = () => {
+const Project = () => {
   return (
     <>
       <section>
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <div className="animate_top mx-auto text-center">
-            <SectionHeader
-              headerInfo={{
-                title: `TESTIMONIALS`,
-                subtitle: `Client’s Testimonials`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
-              }}
-            />
+          <SectionHeader
+            headerInfo={{
+              title: `PROJECTS`,
+              subtitle: `Explore My Work`,
+              description: `Discover a selection of my projects showcasing my skills and expertise. From web applications to mobile apps, each project reflects my dedication to delivering innovative solutions.`,
+            }}
+          />
           </div>
           {/* <!-- Section Title End --> */}
         </div>
@@ -85,4 +85,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default Project;
