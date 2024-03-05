@@ -35,7 +35,7 @@ export const testimonialData: Testimonial[] = [
   },
   {
     id: 4,
-    name: "RE-Optimizer Monitoring",
+    name: "RE-Optimizer",
     designation: "Internship Project",
     image: image2,
     content:

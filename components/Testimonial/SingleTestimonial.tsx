@@ -15,7 +15,7 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
         <Image width={60} height={50} className="" src={image} alt={name} />
       </div>
       
-      <div className="content-wrapper h-[190px] md:h-[190px] lg:h-[120px] overflow-y-auto">
+      <div className="content-wrapper h-[200px] md:h-[195px] lg:h-[120px] overflow-y-auto">
         <p>{content}</p>
       </div>
       {link === "" ? (
