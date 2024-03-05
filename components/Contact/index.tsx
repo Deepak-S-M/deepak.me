@@ -1,8 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import React from "react";
+import React, { use } from "react";
 import { useState } from "react";
+import toast from 'react-hot-toast';
 
 const Contact = () => {
 
@@ -11,7 +12,9 @@ const Contact = () => {
     email: "",
     subject: "",
     phoneNumber: "",
-    message: ""
+    message: "",
+    city: "",
+    state: ""
   });
 
   /**
@@ -28,27 +31,41 @@ const Contact = () => {
  
   const handleSubmit = async (e) => {
     e.preventDefault();
-    try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycbwS-0wYjhfnUj1hSZZKoHgH80cDfwjmkEOBXYzZAlMV-ZYybma_DlY7rJHRUFdlKpZy/exec", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Accept": "*/*",
-        },
-        body: JSON.stringify(formData)
-      });
-      if (response.ok) {
-        // Handle success, e.g., show a success message
-        console.log("Form data sent successfully");
-      } else {
-        // Handle errors
-        console.error("Error sending form data:", response.statusText);
+    const params = new URLSearchParams();
+    params.append('fullName', formData.fullName);
+    params.append('email', formData.email);
+    params.append('subject', formData.subject);
+    params.append('phoneNumber', formData.phoneNumber);
+    params.append('message', formData.message);
+    params.append('city', formData.city);
+    params.append('state', formData.state);
+
+  try {
+    const response = await fetch(`https://script.google.com/macros/s/AKfycbxWWMv5td0VzsMETiksuyCO5Gsfhe0rum_MQhvOZIWEU35g3vkAc2fRFwn0_f-YPZA/exec?${params.toString()}`, {
+      method: "GET",
+    });
+
+    if (response.ok) {
+      console.log("Form data sent successfully");
+      toast.success("\n\nThankYou! Your message has been successfully sent. 🚀");
+      formData = {
+        fullName: "",
+        email: "",
+        subject: "",
+        phoneNumber: "",
+        message: "",
+        city: "",
+        state: ""
       }
-    } catch (error) {
-      // Handle network errors
-      console.error("Error sending form data:", error.message);
+    } else {
+      // Handle errors
+      console.error("Error sending form data:", response.statusText);
     }
-  };
+  } catch (error) {
+    // Handle network errors
+    console.error("Error sending form data:", error.message);
+  }
+};
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -135,6 +152,25 @@ const Contact = () => {
               name="phoneNumber"
               value={formData.phoneNumber}
               placeholder="Phone number"
+              className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+              onChange={handleChange}
+            />
+          </div>
+          {/* City and State*/}
+          <div className="mb-12.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
+            <input
+              type="text"
+              name="city"
+              value={formData.city}
+              placeholder="City"
+              className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+              onChange={handleChange}
+            />
+            <input
+              type="text"
+              name="state"
+              value={formData.state}
+              placeholder="State"
               className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
               onChange={handleChange}
             />
