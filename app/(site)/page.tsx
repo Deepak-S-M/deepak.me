@@ -17,6 +17,9 @@ import Project from "@/components/Testimonial";
 export const metadata: Metadata = {
   title: "Deepak SM",
   description: "This is Personal Website for Deepak",
+  icons: {
+    icon: "/images/favicon.ico", 
+  },
   // other metadata
 };
 

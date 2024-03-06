@@ -48,7 +48,7 @@ const Contact = () => {
     if (response.ok) {
       console.log("Form data sent successfully");
       toast.success("\n\nThankYou! Your message has been successfully sent. 🚀");
-      formData = {
+      setFormData(formData = {
         fullName: "",
         email: "",
         subject: "",
@@ -56,7 +56,7 @@ const Contact = () => {
         message: "",
         city: "",
         state: ""
-      }
+      })
     } else {
       // Handle errors
       console.error("Error sending form data:", response.statusText);
@@ -138,7 +138,7 @@ const Contact = () => {
             />
           </div>
           {/* Subject and Phone Number */}
-          <div className="mb-12.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
+          <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
             <input
               type="text"
               name="subject"
@@ -157,7 +157,7 @@ const Contact = () => {
             />
           </div>
           {/* City and State*/}
-          <div className="mb-12.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
+          <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
             <input
               type="text"
               name="city"
