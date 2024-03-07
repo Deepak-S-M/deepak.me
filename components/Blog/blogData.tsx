@@ -7,6 +7,7 @@ const BlogData: Blog[] = [
     title: "Free advertising for your online business",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+    link: "blog/dsm-ep-01/",
   },
   {
     _id: 2,
@@ -14,6 +15,7 @@ const BlogData: Blog[] = [
     title: "9 simple ways to improve your design skills",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+    link: "blog/dsm-ep-02/",
   },
   {
     _id: 2,
@@ -21,6 +23,7 @@ const BlogData: Blog[] = [
     title: "Tips to quickly improve your coding speed.",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+    link: "blog/dsm-ep-01/",
   },
   {
     _id: 1,
@@ -28,6 +31,7 @@ const BlogData: Blog[] = [
     title: "Free advertising for your online business",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+    link: "blog/dsm-ep-01/",
   },
   {
     _id: 2,
@@ -35,6 +39,7 @@ const BlogData: Blog[] = [
     title: "9 simple ways to improve your design skills",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+    link: "blog/dsm-ep-01/",
   },
   {
     _id: 2,
@@ -42,6 +47,7 @@ const BlogData: Blog[] = [
     title: "Tips to quickly improve your coding speed.",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+    link: "blog/dsm-ep-01/",
   },
 ];
 

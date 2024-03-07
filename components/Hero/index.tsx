@@ -25,9 +25,8 @@ const Hero = () => {
                 </span> */}
               </h1>
 
-              <p>
-              
-I'm passionate about software development and technology innovation. Whether it's crafting elegant code solutions, designing intuitive user interfaces, or exploring emerging tech trends, I'm always eager to dive in and push the boundaries of what's possible. On this site, you'll find a glimpse into my world: from my latest projects showcasing my technical skills to my thoughts on industry trends and best practices. I believe in continuous learning and collaboration, and I'm committed to delivering high-quality software solutions that positively impact people's lives. Feel free to browse around, and don't hesitate to reach out if you have any questions or simply want to connect. I'm excited to share this journey with you!
+              <p>              
+              I'm passionate about software development and technology innovation. Whether it's crafting elegant code solutions, designing intuitive user interfaces, or exploring emerging tech trends, I'm always eager to dive in and push the boundaries of what's possible. On this site, you'll find a glimpse into my world: from my latest projects showcasing my technical skills to my thoughts on industry trends and best practices. I believe in continuous learning and collaboration, and I'm committed to delivering high-quality software solutions that positively impact people's lives. Feel free to browse around, and don't hesitate to reach out if you have any questions or simply want to connect. I'm excited to share this journey with you!
               Feel free to browse around, and don't hesitate to reach out if you have any questions or simply want to connect. I'm excited to share this journey with you!
               </p>  
 
