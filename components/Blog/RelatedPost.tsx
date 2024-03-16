@@ -12,7 +12,7 @@ const RelatedPost = async () => {
         </h4>
 
         <div>
-          {BlogData.slice(0, 3).map((post, key) => (
+          {BlogData.slice(0, 1).map((post, key) => (
             <div
               className="mb-7.5 flex flex-wrap gap-4 xl:flex-nowrap 2xl:gap-6"
               key={key}
@@ -25,9 +25,8 @@ const RelatedPost = async () => {
                 )}
               </div>
               <h5 className="text-md font-medium text-black transition-all duration-300 hover:text-primary dark:text-white dark:hover:text-primary">
-                <Link href={`/blog/blog-details`}>
-                  {" "}
-                  {post.title.slice(0, 40)}...
+                <Link href={`/blog/dsm-ep-01`}>
+                  {post.title.length > 40 ?`${post.title.slice(0, 40)}...`: post.title}
                 </Link>
               </h5>
             </div>

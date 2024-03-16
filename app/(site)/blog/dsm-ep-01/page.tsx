@@ -80,9 +80,9 @@ const SingleBlogPage = async () => {
             <div className="lg:w-2/3">
               <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10">
                 <div className="mb-10 w-full overflow-hidden ">
-                  <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <div className="relative aspect-[97/62] w-full sm:aspect-[97/62]">
                     <Image
-                      src={"/images/blog/blog-01.png"}
+                      src={"/images/blog/dsm.png"}
                       alt="Kobe Steel plant that supplied"
                       fill
                       className="rounded-md object-cover object-center"
@@ -91,75 +91,67 @@ const SingleBlogPage = async () => {
                 </div>
 
                 <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                  DSM 01
+                  EP-01
                 </h2>
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
                     <span className="text-black dark:text-white">Author: </span>{" "}
-                    Jhon Doe
+                    Deepak
                   </li>
-                  <li>
+                  {/* <li>
                     <span className="text-black dark:text-white">
-                      Published On: July 30, 2023
+                      Published On: November 27, 2022
                     </span>{" "}
-                  </li>
+                  </li> */}
                   <li>
                     <span className="text-black dark:text-white">
-                      Category:
-                    </span>
-                    Events
+                      Category: 
+                    </span>{" "}
+                    Fiction
                   </li>
                 </ul>
 
                 <div className="blog-details">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
+                    என்னோட அண்ணன்களும், நண்பர்களும் வீட்டுக்குள்ள பேசி கொண்டு இருந்தாங்க நான் மட்டும் வெளிய வந்து எங்களோட கார் செட்டுக்கு சார்ஜ் ஏத்தி வச்சியிருந்த அவங்களோட மொபைல்ஸ் அப்புறம் என்னோட மொபைல் மற்றும் லேப்டப் ஆ எடுக்க போனேன்.
                   </p>
 
                   <p>
-                    Aenean augue ex, condimentum vel metus vitae, aliquam porta
-                    elit. Quisque non metus ac orci mollis posuere. Mauris vel
-                    ipsum a diam interdum ultricies sed vitae neque. Nulla
-                    porttitor quam vitae pulvinar placerat. Nulla fringilla elit
-                    sit amet justo feugiat sodales. Morbi eleifend, enim non
-                    eleifend laoreet, odio libero lobortis lectus, non porttitor
-                    sem urna sit amet metus. In sollicitudin quam est,
-                    pellentesque consectetur felis fermentum vitae.
+                    போய் சட்ற தொறந்தேன் ரொம்ப இருட்டா இருந்துச்சு அதுனால லைட் சுவிட்ச்ச  போட்டேன். அப்ப ஏதோ ஒன்னு என்னோட தலையில பட்டு கீழ விழுந்துச்சு என்னதா இருக்கும்னு கீழ பாத்தா அங்க கீழ விழுந்தது எலி. அத பாத்து நன் பயப்பட என்ன பாத்து அது பயப்புட்டு பதரி போய் என்னோட கால் மேல ஏறிருச்சி உடனே நான் குதிச்சி தெரியாம சார்ஜ் ஏறிக்கொண்டிருந்த என் மொபைல் மேல என்னோட கையில உள்ள சில்வர் காப்பு பட்டு கீழ தள்ளி விட்டேன்.
                   </p>
 
-                  <div className="flex flex-wrap gap-5">
-                    <Image
-                      src={"/images/blog/blog-01.png"}
-                      width={350}
-                      height={200}
-                      alt="image"
-                    />
-                    <Image
-                      src={"/images/blog/blog-02.png"}
-                      width={350}
-                      height={200}
-                      alt="image"
-                    />
-                  </div>
+                  <p>
+                    கீழ விழுந்த என் மொபைல எடுத்து பாத்தேன் எப்பவும் போல கொஞ்ச விரிசல் கூட இல்லாம இருந்துச்சு. மொபைல ஆன் பண்ணி பாத்தேன் ஆன் ஆகுச்சு. அப்புறம் என் லேப்டப், மிச்ச எல்லோரோட மொபைலையும் எடுத்துட்டு கார் செட்டுல உள்ள சட்ற  கீழ இறக்கி விட்டு வீட்டுக்குள்ள போலாம்னு கிளம்புறேன். அப்ப என்னோட நன்பன் ஆஷிப் வாரான்.
+                  </p>
 
-                  <h3 className="pt-8">
-                    Nunc elementum elit viverra, tempus quam non
+                  <p>
+                  (ஆஷிப்பும் நானும் எங்க கார் செட்டுக்கு வெளியே நின்று பேசிக்கொள்வது).
+                  </p>
+
+                  <p>
+                  ஆஷிப் : டேய் தீபக் என்னடா எல்லாரும் வந்துட்டாங்களா.<br></br>
+                  தீபக்       :  டேய் என்னடா இப்ப தான் வர்ற அங்க எல்லாரும் அப்பவே வந்துடாங்க.<br></br>                        
+                  ஆஷிப் :   இல்லடா மதியம் அருவிக்கு குளிக்க போனேம்லடா அங்க அலை வரும்போது தண்ணிக்குள்ள முன்கிட்டேன்டா அடுத்து  படில மேல ஏறி          வரும்போது கல்லுல இடிச்சிகிட்டேன் அதான் வந்து வலில  தூங்கிட்டேன்.<br></br>
+                  தீபக்      :   என்னடா அருவிக்கு குளிக்க போனனு சொன்ன பின்ன அலை வந்துச்சி உள்ள இழுதிச்சினு கூட சொல்ல மாட்டுக்க  முன்கிட்டேன்னு சொல்லுற பின்ன படியேறி மேல வந்துட்டேன்னு சொல்லுற.
+                  </p>
+
+                  <p>
+                    இப்படி நாங்க பேசிகிட்டு இருக்கும்போது எங்க வீட்டுக்கு எதுரே கொஞ்சம் இடது பக்கம் தள்ளி ஒரு தெரு இருக்கு அந்த பக்கம் ஒரே பயங்கரமான சத்தம். அத கேக்கவே முடில அருவருப்பா இருக்கு ரொம்ப சத்தமா வேற இருக்கு. ச்ச்சீ என்னடா இந்த சத்தம் இப்படி கேவலமா இருக்குனு சொல்றேன் ஆஷிப் காதுல கைய வச்சிக்கிட்டு கீழ உக்காந்துட்டான். ஆனா ஆதே சமயம் ரொம்ப பயமா வேற இருக்கு அந்த சத்தம் பயத்த  வேற கெளப்புது. மனசு திக்கு  திக்குனு வேற அடிக்கு. நான் ஆஷிப் தள்ளிட்டே வீட்டுக்குள்ள போறேன். உள்ள போனோனே  லேப்டப்பயும் மொபைலையும் கட்டுல போட்டுட்டு கதவை அடைக்காலம்னு பாக்குறேன்.
+                  </p>
+
+                  <p>
+                    அப்போ கும்பல் கும்பலா  நெறய பேர் வாரங்க எல்லாரும் ஆதி வாஷிங்க மாரி ஆடை அணிந்து இருகாங்க. கொஞ்ச பேர் எல்லா வீட்டு மேலையும் தாவி கிட்டு இருகாங்க, இன்னும் கொஞ்ச பேர் அங்க இருக்குற குப்பை தொட்டில உள்ள குப்பையை, கீழ கிடக்குற கல்ல எல்லாம் எடுத்து, வீட்டு மேல எறிஞ்சுகிட்டே வாராங்க. அந்த கூடத்துக்கு நடுவுல அவங்க தலைவி மாரி ஒருத்தி கைல தீப்பந்தம் எடுத்துக்கிட்டு வார எல்லாரோட வீட்டுக்கு முன்னாடி இருந்து ஏதோ சபிக்குறா. அத இங்க இருந்து நான் பயத்தோட  பாத்துகிட்டு இருக்கேன்  அத அவா பாத்துட்டாள். 
+                  </p>
+
+                  <p>
+                    நான் வேகம கதவ அடைச்சிட்டேன். அப்புறம் அந்த கும்பல் எங்க வீட்டுக்கு பக்கத்துலையும் வருது அந்த தலைவி ஆக்ரோஷமா! சபிக்குற  சத்தம் கேக்குது அவ கூட இருக்குறவங்க கத்துற சத்தமும் கேக்குது. அப்புறம் அவ கூட உள்ளவங்க கல்ல தூக்கி எங்க வீட்டு ஜன்னலுல எரியுறாங்க அப்போ ஜன்னல் கண்ணாடி ஒடஞ்சி அந்த ஓட்டை வழிய அவங்க தலைவி முகம் தெறியுது அவ அவளோட முடிய பிச்சி அந்த தீப்பந்தத்துல போட்டு எடுக்குற அது ஏறியுர  பாம்பு மாரி பெருசா மாறுது அத அந்த ஓட்டை வழியா தூக்கி போடுறா அது என் மேல வந்து விழுந்து என் கைய அப்டியே விழுங்குது நன் பயத்துல எந்திக்குறேன் அங்க இருந்த எதையும் காணும் அப்போ தான் தெரிய வருது  ஓஓ இதெல்லாம் கனவுனு!.
+                  </p>
+
+                  <h3 className="pt-5">
+                    Dream Scared Me
                   </h3>
 
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
-                  </p>
                 </div>
 
                 <SharePost />
