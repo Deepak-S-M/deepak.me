@@ -18,36 +18,36 @@ const BlogData: Blog[] = [
     link: '/blog/dsm-ep-02/',
   },
   {
-    _id: 2,
-    mainImage: "/images/blog/blog-03.png",
-    title: "Tips to quickly improve your coding speed.",
+    _id: 3,
+    mainImage: "/images/blog/dsm.png",
+    title: "Dreamweaver Facing Enigmas Ep-03",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
-    link: "blog/dsm-ep-01/",
+    link: '/blog/dsm-ep-03/',
   },
   {
-    _id: 1,
-    mainImage: "/images/blog/blog-03.png",
-    title: "Free advertising for your online business",
+    _id: 4,
+    mainImage: "/images/blog/dsm.png",
+    title: "Dreamweaver Facing Enigmas Ep-04",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
-    link: "blog/dsm-ep-01/",
+    link: '/blog/dsm-ep-04/',
   },
   {
-    _id: 2,
-    mainImage: "/images/blog/blog-04.png",
-    title: "9 simple ways to improve your design skills",
+    _id: 5,
+    mainImage: "/images/blog/dsm.png",
+    title: "Dreamweaver Facing Enigmas Ep-05",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
-    link: "blog/dsm-ep-01/",
+    link: '/blog/dsm-ep-05/',
   },
   {
-    _id: 2,
-    mainImage: "/images/blog/blog-01.png",
-    title: "Tips to quickly improve your coding speed.",
+    _id: 6,
+    mainImage: "/images/blog/dsm.png",
+    title: "Dreamweaver Facing Enigmas Ep-06",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
-    link: "blog/dsm-ep-01/",
+    link: '/blog/dsm-ep-06/',
   },
 ];
 
