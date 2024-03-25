@@ -18,7 +18,7 @@ const Hero = () => {
         if (response.ok) {
           const data = await response.json();
           setApiData(data.Deepak);
-          alert("Deepak : "+data.Deepak)
+          // alert("Deepak : "+data.Deepak)
         } else {
           console.error("Failed to fetch API data");
         }
