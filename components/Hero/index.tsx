@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Hero = () => {
   const [email, setEmail] = useState("");
@@ -8,6 +8,27 @@ const Hero = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
+
+  const [apiData, setApiData] = useState(null);
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await fetch("https://deepak-me-server.vercel.app/api/test");
+        if (response.ok) {
+          const data = await response.json();
+          setApiData(data.Deepak);
+          alert("Deepak : "+data.Deepak)
+        } else {
+          console.error("Failed to fetch API data");
+        }
+      } catch (error) {
+        console.error("Error fetching API data:", error);
+      }
+    }
+
+    fetchData();
+  }, []); // Empty dependency array ensures this effect runs only once on mount
 
   return (
     <>
